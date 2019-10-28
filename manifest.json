@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "PasteArmor",
+    "version": "1.0",
+
+    "description": "Paste Armor is a security tool that defend you against paste-hijacking (also known as copy-paste-hijacking, clipboard-hijacking, ...)",
+
+    "applications": {
+        "gecko": {
+            "id": "keya.token.extension@iut.ac.ir"
+        }
+    },
+
+    "icons": {
+        "48": "icons/icon.svg",
+        "96": "icons/icon.svg"
+    },
+
+    "permissions": [
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["pastearmor-contentscript.js"]
+        }
+    ]
+}
