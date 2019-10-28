@@ -1,4 +1,4 @@
-function Warning(innerHTML, moreStyle)
+function Warning(innerText, moreStyle)
 {
     this.element = null
 
@@ -12,7 +12,7 @@ function Warning(innerHTML, moreStyle)
     {
         let ele = document.createElement("div")
         ele.style = "position: fixed; float: left; left: 0; top: 0; background: orange; color: black; font-family: courier; font-size: 18px; " + moreStyle
-        ele.innerHTML = innerHTML
+        ele.innerText = innerText
         document.body.appendChild(ele)
         that.element = ele
 

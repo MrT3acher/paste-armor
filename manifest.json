@@ -4,6 +4,7 @@
     "version": "1.0",
 
     "description": "Paste Armor is a security tool that defend you against paste-hijacking (also known as copy-paste-hijacking, clipboard-hijacking, ...)",
+    "homepage_url": "https://github.com/hrmt2000/paste-armor",
 
     "applications": {
         "gecko": {
